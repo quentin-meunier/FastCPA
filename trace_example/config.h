@@ -1,0 +1,6 @@
+
+#define START_SAMPLE 0
+#define END_SAMPLE 1600
+#define FILE_SAMPLES 1600
+#define NB_TRACES 10000
+
