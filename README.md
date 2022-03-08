@@ -19,6 +19,8 @@ For example, for a trace file with 2,000 samples per trace, setting START\_SAMPL
 
 An example trace file containing 10,000 traces of 1,600 samples is provided. The trace file is expected to contain all the samples values written consecutively in binary (trace after trace), either in float or double type (the typdef of float\_f must be defined accordingly in the common.h file).
 
-After compiling the files, running the binary without argument will perform the attack
+The file key.raw must contain the 16-byte key in binay, while the file textin.raw must contain the 16-byte plaintexts for all traces written consecutively in binary.
+
+After compiling the files, running the binary without argument will perform the attack.
 
 
